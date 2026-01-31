@@ -1,13 +1,14 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halaman Edit Data</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Halaman Edit Data</h1>
-    <br>
-    <a href="index.php">Kembali ke Halaman Utama</a>
+    <a href="index.php" class="nav-link">← Kembali ke Halaman Utama</a>
     <?php
         include 'koneksi.php';
 

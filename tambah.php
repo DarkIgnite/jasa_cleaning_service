@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tambah Data</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Tambah Data Pemesan</h1>
-    <a href="index.php">Kembali ke Halaman Utama</a>
+    <a href="index.php" class="nav-link">← Kembali ke Halaman Utama</a>
     <br>
     <form method="POST" action="tambah_proses.php">
         <table>

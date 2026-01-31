@@ -6,11 +6,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Utama</title>
+    <title>Halaman Admin</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Halaman Utama</h1>
-    <a href="tambah.php">+Tambah Data Pemesan</a>
+    <h1>Halaman Admin</h1>
+    <a href="tambah.php" class="nav-link">+ Tambah Data Pemesan</a>
     <br>
     <table border="1">
         <tr>
@@ -39,8 +40,9 @@
             <td><?php echo $row['jam'] ?></td>
             <td><?php echo $row['tipe_cleaning'] ?></td>
             <td><?php echo $row['pembayaran'] ?></td>
-            <td>
-                <a href="edit.php?id=<?php echo $row['id']?>">Edit</a> || <a href="hapus.php?id=<?php echo $row['id'] ?>" onclick="return confirm('Yakin ingin hapus data?')">Hapus</a>
+            <td class="action-links">
+                <a href="edit.php?id=<?php echo $row['id']?>">Edit</a>
+                <a href="hapus.php?id=<?php echo $row['id'] ?>" onclick="return confirm('Yakin ingin hapus data?')">Hapus</a>
             </td>
         </tr>
 
