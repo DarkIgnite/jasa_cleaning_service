@@ -30,7 +30,7 @@
             </tr>
             <tr>
                 <td>Jam</td>
-                <td><input type="text" name="jam"></td>
+                <td><input type="time" name="jam"></td>
             </tr>
             <tr>
                 <td>Tipe Cleaning</td>

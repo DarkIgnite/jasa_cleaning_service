@@ -41,7 +41,7 @@
             </tr>
             <tr>
                 <td>Jam</td>
-                <td><input type="text" name="jam" value="<?php echo $d['jam']; ?>"></td>
+                <td><input type="time" name="jam" value="<?php echo $d['jam']; ?>"></td>
             </tr>
             <tr>
                 <td>Tipe Cleaning</td>
